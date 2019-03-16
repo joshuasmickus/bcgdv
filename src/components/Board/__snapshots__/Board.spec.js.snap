@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Board component when it is rendered should match the snapshot 1`] = `
+<React.Fragment>
+  <h1>
+    Idea Board
+  </h1>
+  <Button
+    className="new-idea"
+    onClick={[MockFunction]}
+  >
+    <img
+      alt="add-button"
+      className="add-button"
+      src="add.png"
+    />
+  </Button>
+  <Ideas
+    ideas={Array []}
+  />
+</React.Fragment>
+`;

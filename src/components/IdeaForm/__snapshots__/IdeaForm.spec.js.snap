@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given an IdeaForm component when it is rendered should match the snapshot 1`] = `
+<form
+  className="idea-form"
+>
+  <label>
+    Title: 
+  </label>
+  <input
+    autoFocus={true}
+    name="title"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+    value="my idea"
+  />
+  <label>
+    Body: 
+  </label>
+  <input
+    maxLength="140"
+    name="body"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+    value="something under 140 chars"
+  />
+  <Button
+    className=""
+    onClick={[Function]}
+  >
+    Done
+  </Button>
+</form>
+`;

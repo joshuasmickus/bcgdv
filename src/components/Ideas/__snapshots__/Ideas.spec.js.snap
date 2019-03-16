@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given an Ideas component when it is rendered should match the snapshot 1`] = `
+<ul
+  className="ideas"
+>
+  <Connect(Idea)
+    body="body here"
+    created_date="some date"
+    id="11"
+    title="title here"
+  />
+  <Connect(Idea)
+    body="body here"
+    created_date="some date"
+    id="12"
+    title="title here"
+  />
+  <Connect(IdeaForm)
+    idea={
+      Object {
+        "body": "body here",
+        "created_date": "some date",
+        "id": "13",
+        "isEditing": true,
+        "title": "title here",
+      }
+    }
+  />
+</ul>
+`;

@@ -1,0 +1,9 @@
+.add-button,
+.new-idea {
+  background: none;
+  border: 0;
+  display: block;
+  height: 40px;
+  padding: 0;
+  width: 40px;
+}

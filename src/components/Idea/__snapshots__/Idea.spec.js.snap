@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given an Idea component when it is rendered should match the snapshot 1`] = `
+<li
+  className="idea some Id"
+  onDoubleClick={[Function]}
+>
+  <h3>
+    this title here
+  </h3>
+  <p>
+    the body
+  </p>
+  <Button
+    className="delete-button"
+    onClick={[Function]}
+  >
+    <img
+      alt="Delete"
+      src="delete.png"
+      title="Delete"
+    />
+  </Button>
+</li>
+`;
